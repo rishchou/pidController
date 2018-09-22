@@ -2,6 +2,9 @@
 [![Build Status](https://travis-ci.org/rishchou/mygit.svg?branch=master)](https://travis-ci.org/rishchou/mygit)
 [![Coverage Status](https://coveralls.io/repos/github/rishchou/mygit/badge.svg?branch=master)](https://coveralls.io/github/rishchou/mygit?branch=master)
 ---
+## Authors
+1. Driver - Rishabh Choudhary 
+2. Navigator - Bala Sai Sudhakar
 
 ## Overview
 
