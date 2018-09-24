@@ -1,8 +1,17 @@
-#include <iostream>
-#include <lib.hpp>
+/**============================================================================
+ * @file         main.cpp
+ * Author      : Rishabh Choudhary
+ * Version     : 1.0
+ * @Copyright  : GNU Public License
+ * Copyright 2018 RishabhChoudhary
+ * @brief        Calculate setpoint form current velocity
+ *============================================================================
+ */
 
-int main()
-{
-    dummy();
-    return 0;
+#include <iostream>
+
+#include "../include/pidController.h"
+
+int main() {
+  return 0;
 }
