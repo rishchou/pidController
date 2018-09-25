@@ -1,6 +1,6 @@
 /**============================================================================
  * @file         pidController.cpp
- * Author      : Rishabh Choudhary
+ * Author      : Jerrar Bukhari, Rishabh Choudhary
  * Version     : 1.0
  * @Copyright  : GNU Public License
  * Copyright 2018 RishabhChoudhary
@@ -54,5 +54,13 @@ pidController::~pidController() {
 }
 
 double pidController::compute(double setPoint, double cV) {
-  return 15.0;                                  // return output
+  double error = 0.0;
+  double output = 0.0;
+  error = setPoint - cV;
+  double derivative = (error - prevError) / dt;
+  double integral = 0.0;
+  integral = integral + error * dt;
+  output = kp * error + kd * derivative + ki * integral;
+
+  return output;
 }
