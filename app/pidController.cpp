@@ -61,6 +61,7 @@ double pidController::compute(double setPoint, double cV) {
   double integral = 0.0;
   integral = integral + error * dt;
   output = kp * error + kd * derivative + ki * integral;
+  prevError = error;
 
   return output;
 }
