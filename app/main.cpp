@@ -12,6 +12,16 @@
 #include <iostream>
 
 int main() {
-  return 0;
 
+  pidController pid;
+  pid.setParamkp(0.1);
+  pid.setParamki(0.2);
+  pid.setParamkd(0.3);
+  pid.setParamdt(0.1);
+  pid.setParampE(0.0);
+  std::cout << " kp = " << pid.getParamkp() << std::endl;
+  std::cout << " ki = " << pid.getParamki() << std::endl;
+  std::cout << " kd = " << pid.getParamkd() << std::endl;
+  double output = pid.compute(40, 35);
+  std::cout << " output = " << output << std::endl;
 }
