@@ -1,6 +1,6 @@
 # C++ Boilerplate
-[![Build Status](https://travis-ci.org/rishchou/mygit.svg?branch=master)](https://travis-ci.org/rishchou/mygit)
-[![Coverage Status](https://coveralls.io/repos/github/rishchou/mygit/badge.svg?branch=master)](https://coveralls.io/github/rishchou/mygit?branch=master)
+[![Build Status](https://travis-ci.org/mjerrar/mygit.svg?branch=master)](https://travis-ci.org/mjerrar/mygit)
+[![Coverage Status](https://coveralls.io/repos/github/mjerrar/mygit/badge.svg?branch=master)](https://coveralls.io/github/mjerrar/mygit?branch=master)
 ---
 ## Authors
 
