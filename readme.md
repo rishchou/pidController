@@ -1,6 +1,6 @@
 # C++ Boilerplate
-[![Build Status](https://travis-ci.org/mjerrar/mygit.svg?branch=master)](https://travis-ci.org/mjerrar/mygit)
-[![Coverage Status](https://coveralls.io/repos/github/mjerrar/mygit/badge.svg?branch=master)](https://coveralls.io/github/mjerrar/mygit?branch=master)
+[![Build Status](https://travis-ci.org/rishchou/mygit.svg?branch=master)](https://travis-ci.org/rishchou/mygit)
+[![Coverage Status](https://coveralls.io/repos/github/rishchou/mygit/badge.svg?branch=master)](https://coveralls.io/github/rishchou/mygit?branch=master)
 ---
 ## Authors
 
@@ -12,12 +12,18 @@ Part 2
 1. Driver - Jerrar Bukhari
 2. Navigator - Akshay Rajaraman
 
-## Overview
+## Project flow design
+Part 1.
+1. Create a class declaration which contains kp, ki, kd, dt and prevError private variables and computes a new velocity given a target setpoint and actual velocity.
+2. Create UML diagrams and add comments and add test cases for the class.
+3. Build and verify tests failing for travis.
+4. Commit part 1 changes on github.
 
-Simple starter C++ project with:
+Part2. 
+1. Complete the implementation of the compute function.
+2. Fix the changes till all the test cases pass.
 
-- cmake
-- googletest
+
 
 ## Standard install via command-line
 ```
