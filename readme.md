@@ -3,8 +3,14 @@
 [![Coverage Status](https://coveralls.io/repos/github/rishchou/mygit/badge.svg?branch=master)](https://coveralls.io/github/rishchou/mygit?branch=master)
 ---
 ## Authors
+
+Part 1
 1. Driver - Rishabh Choudhary 
 2. Navigator - Bala Sai Sudhakar
+
+Part 2
+1. Driver - Jerrar Bukhari
+2. Navigator - Akshay Rajaraman
 
 ## Overview
 
