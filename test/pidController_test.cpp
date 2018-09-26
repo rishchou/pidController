@@ -22,7 +22,7 @@ TEST(Zero, shouldPass) {
   pid.setParamkd(0.0);
   pid.setParamdt(0.1);
   pid.setParampE(0.0);
-  EXPECT_FLOAT_EQ(0.0, pid.compute(40,  35));
+  EXPECT_FLOAT_EQ(0.0, pid.compute(40, 35));
 }
 
 /**
@@ -30,6 +30,13 @@ TEST(Zero, shouldPass) {
  */
 TEST(positive, shouldPass) {
   pidController pid;
+  double unit = 1;
+  pid.setParamkp(unit);
+  EXPECT_EQ(unit, pid.getParamkp());
+  pid.setParamki(unit);
+  EXPECT_EQ(unit, pid.getParamki());
+  pid.setParamkd(unit);
+  EXPECT_EQ(unit, pid.getParamkd());
   pid.setParamkp(0.1);
   pid.setParamki(0.2);
   pid.setParamkd(0.3);
